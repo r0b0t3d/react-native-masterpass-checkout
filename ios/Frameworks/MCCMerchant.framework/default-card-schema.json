@@ -1,0 +1,66 @@
+{
+	"global": {
+    "cardBrandBins": [
+			{
+      	"id": "discover",
+      	"name": "Discover",
+      	"patterns": "/^6([045])/",
+      	"format": "/(%5Cd{1,4})/g",
+      	"formatAsTyped": "/(?:^|%5Cs)(%5Cd{4})$/",
+      	"accountNumberLengths": [16],
+      	"cvcLength": 3,
+      	"isLuhn": true
+      },
+      {
+      	"id": "amex",
+      	"name": "American Express",
+      	"patterns": "/^3[47]/",
+      	"format": "/(%5Cd{1,4})(%5Cd{1,6})?(%5Cd{1,5})?/",
+      	"formatAsTyped": "/^(%5Cd{4}|%5Cd{4}%5Cs%5Cd{6})$/",
+      	"accountNumberLengths": [15],
+      	"cvcLength": 4,
+      	"isLuhn": true
+      },
+      {
+      	"id": "visa",
+      	"name": "Visa",
+      	"patterns": "/^4/",
+      	"format": "/(%5Cd{1,4})/g",
+      	"formatAsTyped": "/(?:^|%5Cs)(%5Cd{4})$/",
+      	"accountNumberLengths": [13, 16],
+      	"cvcLength": 3,
+      	"isLuhn": true
+      },
+      {
+      	"id": "master",
+      	"name": "Mastercard",
+      	"patterns": "/^(222[1-9]|22[3-9]%5Cd{1}|2[3-6]%5Cd{2}|27[0-1]%5Cd{1}|2720|5[1-5]%5Cd{2})/",
+      	"format": "/(%5Cd{1,4})/g",
+      	"formatAsTyped": "/(?:^|%5Cs)(%5Cd{4})$/",
+      	"accountNumberLengths": [16],
+      	"cvcLength": 3,
+      	"isLuhn": true
+      },
+      {
+      	"id": "maestro",
+      	"name": "Maestro",
+        "patterns": "/^(((5|5[06-9]|(600|6010|601[2-9]|60[2-6]|61|62[79]|621[89]|628[01]|63|64[023]|641[03478]|6[67])%5Cd*)|((5[06-8]|599|6[37])%5Cd*))|510588|511(071|106|192|247)|515(022|115|116|121|267|400)|517902|520569|522(091|286)|528155|529373|530571|530880|532(573|574|578)|534(085|090|091|092|093|094|095|096|097|098|099)|536096|538628|539(008|025|677|696)|54(0761|1094|3571|4431|4535|5469|5582|5620|6400|6432|7195)|55(0917|1033|3103|3104|3725|3783|7187|7205|7549)|621860|622018|62206[89]|622(098|113)|627(089|252|254|255|277|289|609|643|665|669|674|696|698|699|706|709|736|751|767|786|790)|708305)$/",
+      	"format": "/(%5Cd{1,4})/g",
+      	"formatAsTyped": "/(?:^|%5Cs)(%5Cd{4})$/",
+      	"accountNumberLengths": [12, 13, 14, 15, 16, 17, 18, 19],
+      	"cvcLength": 3,
+      	"isLuhn": true
+      },
+      {
+        "id": "diners",
+        "name": "Diner%5C's Club",
+        "patterns": "/^3[0689]/",
+        "format": "(%5Cd{1,4})(%5Cd{1,6})?(%5Cd{1,4})?/",
+        "formatAsTyped": "/^(%5Cd{4}|%5Cd{4}%5Cs%5Cd{6})$/",
+        "accountNumberLengths": [14],
+        "cvcLength": 3,
+        "isLuhn": true
+      }
+    ]
+  }
+}
