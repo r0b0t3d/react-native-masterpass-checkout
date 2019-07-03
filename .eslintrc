@@ -1,0 +1,34 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "flowtype",
+        "import",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:import/errors",
+        "@react-native-community",
+        "prettier",
+        "prettier/react",
+        "plugin:prettier/recommended",
+        "eslint-config-prettier"
+    ],
+    "rules": {
+        "indent": ["warn", 2],
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }],
+        "no-use-before-define": [0]
+    }
+}
