@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNMasterpassCheckout.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMasterpassCheckout.m */; };
-		CC7BB0D622CB14DF002E1144 /* RNMasterpassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7BB0D522CB14DF002E1144 /* RNMasterpassButton.m */; };
+		CC8289E122CD2E8C00791744 /* SDKConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8289E022CD2E8C00791744 /* SDKConfiguration.m */; };
 		CC85384922CB024700FB3BA2 /* MCCMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC85384822CB024700FB3BA2 /* MCCMerchant.framework */; };
+		CCD96F0E22CFF97D00812871 /* RNMasterpassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD96F0D22CFF97D00812871 /* RNMasterpassButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +29,11 @@
 		134814201AA4EA6300B7C361 /* libRNMasterpassCheckout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMasterpassCheckout.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNMasterpassCheckout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMasterpassCheckout.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMasterpassCheckout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMasterpassCheckout.m; sourceTree = "<group>"; };
-		CC7BB0D522CB14DF002E1144 /* RNMasterpassButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMasterpassButton.m; sourceTree = "<group>"; };
+		CC8289DF22CD2E8C00791744 /* SDKConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKConfiguration.h; sourceTree = "<group>"; };
+		CC8289E022CD2E8C00791744 /* SDKConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKConfiguration.m; sourceTree = "<group>"; };
 		CC85384822CB024700FB3BA2 /* MCCMerchant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MCCMerchant.framework; sourceTree = "<group>"; };
-		CCCD322322CBC8250093AFF5 /* RNMasterpassButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMasterpassButton.h; sourceTree = "<group>"; };
+		CCD96F0C22CFF97C00812871 /* RNMasterpassButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMasterpassButton.h; sourceTree = "<group>"; };
+		CCD96F0D22CFF97D00812871 /* RNMasterpassButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMasterpassButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				CC7BB0D522CB14DF002E1144 /* RNMasterpassButton.m */,
-				CCCD322322CBC8250093AFF5 /* RNMasterpassButton.h */,
+				CC8289DF22CD2E8C00791744 /* SDKConfiguration.h */,
+				CC8289E022CD2E8C00791744 /* SDKConfiguration.m */,
+				CCD96F0C22CFF97C00812871 /* RNMasterpassButton.h */,
+				CCD96F0D22CFF97D00812871 /* RNMasterpassButton.m */,
 				CC85384522CB021900FB3BA2 /* Frameworks */,
 				B3E7B5881CC2AC0600A0062D /* RNMasterpassCheckout.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMasterpassCheckout.m */,
@@ -130,8 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7BB0D622CB14DF002E1144 /* RNMasterpassButton.m in Sources */,
+				CCD96F0E22CFF97D00812871 /* RNMasterpassButton.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMasterpassCheckout.m in Sources */,
+				CC8289E122CD2E8C00791744 /* SDKConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

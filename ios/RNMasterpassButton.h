@@ -2,14 +2,18 @@
 //  RNMasterpassButton.h
 //  RNMasterpassCheckout
 //
-//  Created by Erick Bazan on 7/2/19.
+//  Created by Erick Bazan on 7/5/19.
 //  Copyright © 2019 Facebook. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <MCCMerchant/MCCMerchant.h>
+#import "SDKConfiguration.h"
 
-@class MCCMasterpassButton;
+@interface RNMasterpassButton : UIView <MCCMerchantDelegate>
 
-@interface RNMasterpassButton : UIView
+- (instancetype)initWithConfiguration:(MCCConfiguration *)configuration sdkConfiguration:(SDKConfiguration *)sdkConfiguration;
+- (MCCMasterpassButton *)getMasterPassButton;
+- (void) setConfigs:(MCCConfiguration *)config sdkConfig:(SDKConfiguration *)sdkConfig;
 
 @end

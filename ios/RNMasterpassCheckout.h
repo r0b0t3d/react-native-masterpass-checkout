@@ -12,6 +12,7 @@
 #import <React/RCTViewManager.h>
 #import <MCCMerchant/MCCMerchant.h>
 
-@interface RNMasterpassCheckout : RCTViewManager <RCTBridgeModule, MCCMerchantDelegate>
+@interface RNMasterpassCheckout : RCTViewManager <RCTBridgeModule>
 
 @end
+

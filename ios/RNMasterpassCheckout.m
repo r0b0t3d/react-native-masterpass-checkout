@@ -7,157 +7,123 @@
 //
 
 #import "RNMasterpassCheckout.h"
-#import <React/RCTViewManager.h>
+#import "SDKConfiguration.h"
 #import "RNMasterpassButton.h"
 
-static NSString *const kRejectCode = @"MastercardModule";
+static NSString *const ModuleCode = @"MastercardModule";
 
 @interface RNMasterpassCheckout ()
 
-@property  MCCMasterpassButton * _Nullable masterPassButton;
-@property  UIView * buttonContainer;
+@property(nonatomic, strong) MCCConfiguration *configuration;
+@property(nonatomic, strong) SDKConfiguration *sdkConfiguration;
+@property(nonatomic, strong) RNMasterpassButton *container;
+@property(nonatomic, strong) MCCMasterpassButton *button;
 
 
 @end
 
 @implementation RNMasterpassCheckout
-{
-    BOOL _initialized;
+
+- (UIView *)view {
+    self.container = [[RNMasterpassButton alloc] init];
+    return self.container;
 }
+
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
+//- (instancetype)init {
+//    self = [super init];
+//    self.masterpassButton = [[UIView alloc]initWithFrame:CGRectMake(0,0,0,0)];
+//    self.masterpassButton.userInteractionEnabled = YES;
+//    return self;
+//}
 
 RCT_EXPORT_MODULE();
 
-- (UIView *)view {
-    return self.buttonContainer;
+RCT_EXPORT_VIEW_PROPERTY(onCheckoutError, RCTDirectEventBlock);
+RCT_EXPORT_VIEW_PROPERTY(onCheckoutFinish, RCTDirectEventBlock);
+
+- (NSArray<NSString *> *)supportedEvents
+{
+    return @[@"onCheckoutError", @"onCheckoutFinish"];
 }
 
-- (instancetype)init {
-    self = [super init];
-    self.buttonContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 50, 320, 430)];
-    return self;
-}
+RCT_REMAP_METHOD(initialize,
+                merchantUrlScheme: (NSString *)merchantUrlScheme
+                merchantName: (NSString *)merchantName
+                merchantUniversalLink: (NSString *)merchantUniversalLink
+                merchantUserId: (NSString *)merchantUserId
+                localeValue: (NSString *)localeValue
+                expressCheckoutEnabled: (nonnull NSNumber *)expressCheckoutEnabled
 
-RCT_EXPORT_METHOD(initialize:(NSString *)merchantUrlScheme
-                  merchantName: (NSString *)merchantName
-                  merchantUniversalLink: (NSString *)merchantUniversalLink
-                  merchantUserId: (NSString *)merchantUserId
-                  expressCheckoutEnabled: (nonnull NSNumber *)expressCheckoutEnabled
-                  resolver:(RCTPromiseResolveBlock)resolve
-                  rejecter:(RCTPromiseRejectBlock)reject
+                checkoutId: (NSString *)checkoutId
+                cartId: (NSString *)cartId
+                amountValue: (nonnull NSNumber *)amountValue
+                currencyCode: (NSString *)currencyCode
+                isShippingRequired: (nonnull NSNumber *)isShippingRequired
+
+                resolver:(RCTPromiseResolveBlock)resolve
+                rejecter:(RCTPromiseRejectBlock)reject
                   ) {
-    if (_initialized) {
-        reject(kRejectCode, @"Already initialize", nil);
-        return;
-    }
     
     MCCConfiguration *configuration = [[MCCConfiguration alloc] init];
     configuration.merchantUrlScheme = merchantUrlScheme;
     configuration.merchantName = merchantName;
     configuration.merchantUniversalLink = merchantUniversalLink;
     configuration.merchantUserId = merchantUserId;
-    configuration.locale = [NSLocale currentLocale];
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:localeValue];
+    configuration.locale = locale;
     configuration.expressCheckoutEnabled = expressCheckoutEnabled.boolValue;
+
+    SDKConfiguration *sdkConfiguration = [[SDKConfiguration alloc] init];
+    
+    sdkConfiguration.checkoutId = checkoutId;
+    sdkConfiguration.cartId = cartId;
+    
+    NSDecimalNumber * amt = [[NSDecimalNumber alloc] initWithInteger:amountValue.integerValue];
+    MCCAmount * amount = [[MCCAmount alloc] init];
+    amount.total = amt;
+    amount.currencyCode = currencyCode;
+    sdkConfiguration.amount = amount;
+    
+    MCCCardType * mccCard = [[MCCCardType alloc] initWithType:MCCCardMASTER];
+    
+    NSSet*  allowedNetworkTypesSet = [[NSSet alloc] initWithObjects:(mccCard), nil];
+    sdkConfiguration.allowedCardTypes = allowedNetworkTypesSet;
+    
+    MCCCryptogram * mccCryptogram = [[MCCCryptogram alloc] initWithType:(MCCCryptogramUCAF)];
+    sdkConfiguration.cryptogramType = mccCryptogram;
+    
+    sdkConfiguration.isShippingRequired = isShippingRequired.boolValue;
+    
+    [self.container setConfigs:configuration sdkConfig:sdkConfiguration];
     
     [MCCMerchant
      initializeSDKWithConfiguration:configuration onStatusBlock:^(NSDictionary * _Nonnull status, NSError * _Nullable error) {
-         if (error) reject(kRejectCode, @"Error initializing", error);
+         NSString *code = [@(error.code) stringValue];
+         if (error) reject(code, error.localizedDescription, error);
          else {
              MCCInitializationState type = [status[kInitializeStateKey] integerValue];
              switch (type) {
                  case MCCInitializationStateStarted:
                      break;
                  case MCCInitializationStateCompleted:
-                     self->_initialized = TRUE;
-                     self.masterPassButton = [self getMasterPassButton];
-                     if (self.masterPassButton != nil){
-                         [self.masterPassButton addButtonToview:self.buttonContainer];
+                     self.button = [self.container getMasterPassButton];
+                     if (self.button != nil){
+                         [self.button addButtonToview:self.container];
                      }
                      resolve(@YES);
                      break;
                  case MCCInitializationStateFail:
-                     reject(kRejectCode, @"Configuration fails", nil);
+                     reject(ModuleCode, @"Configuration fails", nil);
                      break;
              }
          }
      }];
 }
 
-RCT_EXPORT_METHOD(doCheckout:(RCTPromiseResolveBlock)resolve
-                  rejecter:(RCTPromiseRejectBlock)reject
-                  ) {
-    
-}
-
-#pragma mark - MCCMerchantDelegate
-
-- (MCCMasterpassButton * _Nullable)getMasterPassButton{
-    MCCMasterpassButton * masterpassButton = [MCCMerchant getMasterPassButton:self];
-    return masterpassButton;
-}
-
-- (void)didGetAddPaymentMethodRequest:(nullable void (^)(NSSet<MCCCardType *> * _Nonnull, NSString * _Nonnull))completionBlock {
-    
-}
-
-- (void)didGetCheckoutRequest:(nullable BOOL (^)(MCCCheckoutRequest * _Nonnull))completionBlock {
-    
-    // Init the chechoutRequest
-    MCCCheckoutRequest * transactionRequest = [[MCCCheckoutRequest alloc] init];
-    
-    //check merchant on-boarding process for checkoutId & cartID
-    transactionRequest.checkoutId = @"{ADD_YOUR_CHECKOUTID}";
-    transactionRequest.cartId = @"{ADD_YOUR_CARTID}";
-    
-    //amount and currency
-    NSDecimalNumber * amt = [[NSDecimalNumber alloc] initWithString:(@"75")];
-    MCCAmount * amount = [[MCCAmount alloc] init];
-    amount.total = amt;
-    amount.currencyCode = @"USD";
-    transactionRequest.amount = amount;
-    
-    //network type
-    
-    //Type of card
-    MCCCardType * mccCard = [[MCCCardType alloc] initWithType:MCCCardMASTER];
-    
-    NSSet*  allowedNetworkTypesSet = [[NSSet alloc] initWithObjects:(mccCard), nil];
-    transactionRequest.allowedCardTypes = allowedNetworkTypesSet;
-    
-    //cryptogram type
-    
-    MCCCryptogram * mccCryptogram = [[MCCCryptogram alloc] initWithType:(MCCCryptogramUCAF)];
-    transactionRequest.cryptogramType = mccCryptogram;
-    
-    //shipping required
-    transactionRequest.isShippingRequired = true;
-    
-    completionBlock(transactionRequest);
-}
-
-- (void)didReceiveCheckoutError:(NSError * _Nonnull)error {
-    NSError *  errorObject = (NSError*) error;
-    if (errorObject.domain == MCCMerchantSDKTransactionErrorDomain) {
-        //Do something with error
-        
-        NSLog(@"%@ Error - %@", kRejectCode, error.localizedDescription);
-        //self.showErrorDialogue(error.localizedDescription, action: nil)
-    } else {
-        NSLog(@"%@ ErrorObject - %@", kRejectCode, errorObject.description);
-        //self.showError(errorObject)
-    }
-}
-
-
-- (void)didFinishCheckout:(MCCCheckoutResponse * _Nonnull)checkoutResponse {
-    MCCResponseType webCheckoutType = checkoutResponse.responseType;
-    if (webCheckoutType == MCCResponseTypeWebCheckout){
-        //do something
-        NSLog(@"%@ TransactionId - %@" , kRejectCode, checkoutResponse.transactionId);
-    }
-}
-
-- (MCCPaymentMethod * _Nonnull)loadPaymentMethod {
-    return [[MCCPaymentMethod alloc] init];
-}
 
 @end
