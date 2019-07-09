@@ -1,6 +1,6 @@
 {
   "name": "react-native-masterpass-checkout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Masterpass Checkout SDK - v2.4 for React Native",
   "main": "src/index.js",
   "keywords": [
