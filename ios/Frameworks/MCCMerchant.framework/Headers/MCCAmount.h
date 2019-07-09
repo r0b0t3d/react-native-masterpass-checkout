@@ -16,4 +16,7 @@
 ///Currency code. A string representing currency code in which the amount is being charged. The value should be following ISO 4217 standard.
 @property(nonatomic, copy, nonnull) NSString *currencyCode;
 
+///Currency number. A string representing currency number in which the amount is being charged. For example, for US it is 840.
+@property(nonatomic, copy, nonnull) NSString *currencyNumber;
+
 @end

@@ -1,0 +1,112 @@
+/* 
+  MCFAnalytics.strings
+  MCFCore
+
+  Created by Huang, Haodan on 9/8/16.
+  Copyright © 2016 MasterCard. All rights reserved.
+*/
+
+/* Gloabl Variables */
+"TargetDevice"  = "Application";
+"WalletChannel" = "Masterpass";
+
+/* App Action Strings */
+
+//wallet.action.type
+"AddressManagement"             = "Address Management";
+"Registration"                  = "Registration";
+"ShippingManagement"            = "Shipping Management";
+"WalletManagement"              = "Wallet Management";
+
+// wallet.action.Name values
+"AddNewAddress"                 = "Add New Address";
+"ChangeCardButtonClicked"       = "Change Card Button Clicked";
+"ClickBuyWithMasterpass"        = "Click Buy With Masterpass";
+"SelectWallet"                  = "Select Wallet";
+"SelectCard"                    = "Select Card";
+"SelectShippingMethod"          = "Select Shipping Method";
+"SelectShippingAddress"         = "Select Shipping Address";
+"SubmitPayment"                 = "Submit Payment";
+"WalletPINScreen"               = "Wallet PIN Screen";
+
+//context object values
+"cancel"                        = "cancel";
+"save"                          = "save";
+"submit"                        = "submit";
+"timeout"                       = "timeout";
+"masterpassButton"              = "Masterpass Button";
+"paymentMethod"                 = "Payment Method";
+"customCheckout"                = "Custom Checkout";
+
+/* App State Strings */
+
+//wallet.action.type
+"AccountManagement"             = "Account Management";
+"Checkout"                      = "Checkout";
+"Landing"                       = "Landing";
+"Loading"                       = "Loading";
+"PinManagement"                 = "Pin Management";
+
+// merchant.action.Name values
+"CardSelectorScreen"            = "CardSelectorScreen";
+"LoadingScreen"                 = "LoadingScreen";
+"MerchantAppInitialization"     = "Merchant App Initialization";
+"PaymentConfirmationScreen"     = "PaymentConfirmationScreen";
+"PinScreen"                     = "Pin Screen";
+"TransactionCompleteRemoteService" = "TransactionCompleteRemoteService";
+"WalletSelectorScreen"          = "WalletSelectorScreen";
+
+// One Time Passcode
+
+"OneTimePasscode"               = "One Time Passcode";
+"TextMeAgain"                   = "Text Me Again";
+"OTPSubmit"                     = "OTP Submit";
+
+//Select Payment
+
+"SelectPayment"                 = "Select Payment";
+
+//Change Card
+
+"ChangeCard"                    = "Change Card";
+"ChangeCardInitiated"           = "Change Card Initiated";
+
+
+//Select Card
+
+"CardSelected"                  = "Card Selected";
+
+//Add Card
+
+"AddCard"                       = "Add Card";
+
+//Checkout Initiated
+
+"CheckoutInitiated"             = "Checkout Initiated";
+"AuthorizeCheckout"             = "Authorize Checkout";
+"ForgotPassword"                = "Forgot Password";
+"RegistrationInitiated"        = "Registration Initiated";
+"SignInHere"                  = "Sign In Here";
+"WalletSelected"               = "Wallet Selected";
+"LoginSubmit"                  = "Login Submit";
+"ChangeNumber"                 = "Change Number";
+"ForgotPassword"               = "Forgot Password";
+"CardCapture"                  = "Card Capture";
+"SubmitAddCard"               = "Submit Add Card";
+"RegistrationComplete"         = "Registration Complete";
+"RegisterHere"                 = "Register Here";
+"SubmitVerifyCard"            = "Submit Verify Card";
+
+//merchant.action.type
+
+"Routing"                       = "Routing";
+"SignIn"                        = "Sign-in";
+"Register"                      = "Register";
+
+// Remote Service Results
+"Success"                       = "Success";
+"Failure"                       = "Failure";
+
+// Add Payment Method
+"AddPaymentMethod"              = "Add Payment Method";
+

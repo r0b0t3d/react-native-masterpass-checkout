@@ -1,8 +1,6 @@
 
 package com.reactnative.masterpasscheckout;
 
-
-import android.location.Address;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -13,7 +11,6 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Promise;
 
 import com.mastercard.mp.checkout.Amount;
-import com.mastercard.mp.checkout.CheckoutSummaryItem;
 import com.mastercard.mp.checkout.CryptoOptions;
 import com.mastercard.mp.checkout.MasterpassButton;
 import com.mastercard.mp.checkout.MasterpassCheckoutCallback;
@@ -23,13 +20,11 @@ import com.mastercard.mp.checkout.MasterpassInitCallback;
 import com.mastercard.mp.checkout.MasterpassMerchant;
 import com.mastercard.mp.checkout.MasterpassMerchantConfiguration;
 import com.mastercard.mp.checkout.NetworkType;
-import com.mastercard.mp.checkout.ShippingSummaryItem;
 import com.mastercard.mp.checkout.Tokenization;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Currency;
-import java.util.List;
 import java.util.Locale;
 
 public class RNMasterpassCheckoutModule extends ReactContextBaseJavaModule implements MasterpassCheckoutCallback, MasterpassInitCallback {
@@ -97,10 +92,9 @@ public class RNMasterpassCheckoutModule extends ReactContextBaseJavaModule imple
     mPromise = promise;
 
     if (sdkAlreadyInitialized) {
-      Log.d(TAG, "MASTERPASS INITIAL");
       addButton();
-      RNMasterpassCheckoutHelper.emitCheckoutErrorEvent(SingletonViewHolder.getInstance().getView().getId(), String.valueOf(12390), "Complete", mContext);
       mPromise.resolve(true);
+      Log.d(TAG, "SDK already initialized");
       return;
     }
 
@@ -113,15 +107,15 @@ public class RNMasterpassCheckoutModule extends ReactContextBaseJavaModule imple
       sdkAlreadyInitialized = true;
       addButton();
       mPromise.resolve(true);
-      Log.d(TAG, "MASTERPASS SDK RUNNING");
+      Log.d(TAG, "SDK initialization success");
     }
   }
 
   @Override
   public void onInitError(MasterpassError masterpassError) {
     if (mPromise != null) {
-      mPromise.reject(E_LAYOUT_ERROR, masterpassError.message());
-      Log.d(TAG, "MASTERPASS SDK ERROR");
+      mPromise.reject(TAG, masterpassError.message());
+      Log.d(TAG, "SDK initialization error: " + masterpassError.message());
     }
   }
 
@@ -138,10 +132,10 @@ public class RNMasterpassCheckoutModule extends ReactContextBaseJavaModule imple
       format.add("UCAF");
       mastercard.setFormat(format);
       cryptoOptions.setMastercard(mastercard);
-      String unpreditableNumber = Base64.encodeToString(
+      String unpredictableNumber = Base64.encodeToString(
               Integer.toString(10000).getBytes("UTF-8"), Base64.NO_WRAP);
 
-      return new Tokenization(unpreditableNumber, cryptoOptions);
+      return new Tokenization(unpredictableNumber, cryptoOptions);
     } catch (UnsupportedEncodingException e) {
       e.printStackTrace();
     }
@@ -158,31 +152,27 @@ public class RNMasterpassCheckoutModule extends ReactContextBaseJavaModule imple
             .setCheckoutId(mSdkConfiguration.checkoutId)
             .setCartId(mSdkConfiguration.cartId)
             .setAmount(mSdkConfiguration.amountValue)
+            .setMerchantName(mSdkConfiguration.merchantName)
             .setAllowedNetworkTypes(allowedNetworkTypes)
             .setTokenization(tokenization) // DSRP checkout is supported by Merchant
             .isShippingRequired(false)
+            .setSuppress3Ds(false)
+            .setCallBackUrl(mSdkConfiguration.merchantUrlScheme)
+            .setCvc2Support(false)
+            .setValidityPeriodMinutes(0)
             .build();
   }
 
   @Override
   public void onCheckoutComplete(Bundle bundle) {
-    RNMasterpassCheckoutHelper.emitCheckoutFinishEvent(SingletonViewHolder.getInstance().getView().getId(), bundle, mContext);
     Log.d(TAG, "Checkout completed");
+    RNMasterpassCheckoutHelper.emitCheckoutFinishEvent(SingletonViewHolder.getInstance().getView().getId(), bundle, mContext);
   }
 
   @Override
   public void onCheckoutError(MasterpassError masterpassError) {
-    Log.d(TAG, "Checkout error: " + masterpassError.message());
+    Log.d(TAG, "Checkout error: " + masterpassError + masterpassError.message());
     RNMasterpassCheckoutHelper.emitCheckoutErrorEvent(SingletonViewHolder.getInstance().getView().getId(), String.valueOf(masterpassError.code()), masterpassError.message(), mContext);
-  }
-
-
-  @Override
-  public MasterpassCheckoutRequest getUpdatedCheckoutData(List<CheckoutSummaryItem> list,
-                                                                    List<ShippingSummaryItem> list1, ShippingSummaryItem shippingSummaryItem,
-                                                                    Address address, Amount amount) { // Only required if shipping is required
-
-    return null;
   }
 
 }

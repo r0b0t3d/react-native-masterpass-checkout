@@ -27,7 +27,7 @@ public class RNMasterpassCheckoutHelper {
         map.putString("transactionId", bundle.getString(CheckoutResponseConstants.TRANSACTION_ID));
         map.putString("pairingTransactionID", bundle.getString(CheckoutResponseConstants.PAIRING_TRANSACTION_ID));
         map.putString("checkoutResourceURL", bundle.getString(CheckoutResponseConstants.CHECKOUT_RESOURCE_URL_ID));
-        map.putString("pairingUserID", bundle.getString(CheckoutResponseConstants.USER_ID));
+        map.putString("walletID", bundle.getString(CheckoutResponseConstants.WALLET_ID));
         return map;
     }
 }

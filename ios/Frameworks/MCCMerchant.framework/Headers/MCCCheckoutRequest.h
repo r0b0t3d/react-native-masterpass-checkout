@@ -29,9 +29,6 @@
 //Cart ID. A dynamic identifier fetched from merchant app to identify each checkout.
 @property (nonatomic, copy, nonnull) NSString *cartId;
 
-//This property holds supported Cryptogram Type by merchant. The possible values are ICC or MCHIP or both.
-@property (nonatomic, strong, nullable) MCCCryptogram *cryptogramType;
-
 //The property constrains the locations that the merchant can ship the product. If null, 'default' profile id will be used
 //For Web checkout - shippingLocationProfiles
 @property (nonatomic, copy, nullable) NSString *shippingProfileId;
@@ -40,29 +37,30 @@
 //For Web checkout - suppressShippingAddress
 @property (nonatomic, assign) BOOL isShippingRequired;
 
-//The property used to describe the locale supported by merchant
-@property (nonatomic, copy) NSString * _Nullable merchantLocale;
+// The property used to describe the state of 3DS required.
+// Default is true.
+@property (nonatomic, assign) BOOL suppress3DS;
+
+//CallbackUrl
+@property (nonatomic, copy, nullable) NSString *callbackUrl;
 
 /*
  * Web checkout specific extra optional parameters.
  */
-
-/// The property used to describe the state of 3DS required.
-@property (nonatomic, assign) BOOL suppress3DS;
-
-// The property used to describe the unpredictableNumber, can be merchant generated or service generated
-// Optional for FPAN Transaction
-@property (nonatomic, copy, nullable) NSString *unpredictableNumber;
-
-//The property used to describe the merchant name
-//This attribute is not used by SDK and will be remove in future release
-@property (nonatomic, copy, nullable) NSString * merchantName DEPRECATED_ATTRIBUTE;
-
-//The property used to describe the amountPending
-//This attribute is not used by SDK and will be remove in future release
-@property (nonatomic, strong, nullable) NSDecimalNumber* amountPending DEPRECATED_ATTRIBUTE;
-
 //The property used to describe the extentionPoint
 @property (nonatomic, strong, nullable) NSDictionary* extentionPoint;
+
+
+
+//This property holds supported Cryptogram Type by merchant. The possible values are ICC or MCHIP or both.
+@property (nonatomic, strong, nullable) MCCCryptogram *cryptogramType __deprecated_msg("Please use cryptogramTypes instead of cryptogramType");
+
+//NOTE: Additional Parameter for SRC
+//TODO: Document needs to update for cryptogramTypes, unpredictableNumber, validityPeriodMinutes & cvc2support.
+//This property holds supported Cryptogram Type by merchant. The possible values are ICC or MCHIP or both.
+@property (nonatomic, strong, nullable) NSArray <MCCCryptogram *> *cryptogramTypes;
+@property (nonatomic, copy, nullable) NSString *unpredictableNumber;
+@property (nonatomic, assign) NSInteger validityPeriodMinutes;
+@property (nonatomic, assign) BOOL cvc2support;
 
 @end

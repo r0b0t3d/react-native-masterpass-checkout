@@ -70,9 +70,7 @@ RCT_REMAP_METHOD(initialize,
                   ) {
     
     MCCConfiguration *configuration = [[MCCConfiguration alloc] init];
-    configuration.merchantUrlScheme = merchantUrlScheme;
     configuration.merchantName = merchantName;
-    configuration.merchantUniversalLink = merchantUniversalLink;
     configuration.merchantUserId = merchantUserId;
     NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:localeValue];
     configuration.locale = locale;

@@ -104,7 +104,7 @@ FOUNDATION_EXPORT const unsigned char MCCMerchantVersionString[];
 #pragma mark - Add Payment Method
 
 /**
- * This method initiates Add Paymnet Method
+ * This method initiates Add Payment Method
  *
  * @param merchantDelegate Merchant delegate object to facilitate communication between MCCMerchant SDK and Merchant application
  * @param completionHandler completion handler block for callback

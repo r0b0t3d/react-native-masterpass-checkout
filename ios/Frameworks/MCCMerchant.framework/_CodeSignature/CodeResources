@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ADBMobileConfig.json</key>
-		<data>
-		MoT3zFA0hOAmromFQ2JTmmak87U=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		QjSsu882UY8JNZTy2okCrkn4uJQ=
+		qklOTxSxWerAQQvRwffD4ST2Mvc=
 		</data>
 		<key>Headers/MCCAmount.h</key>
 		<data>
-		rJv6TgggJpxW5AGzqEik5QP3WKc=
+		ju5nKvesLWsiyKHpJLmH8+LrnG4=
 		</data>
 		<key>Headers/MCCBlocks.h</key>
 		<data>
-		B67QNaKnLGdJDKLzSySXU4PnErU=
+		55WYTxB8oLHo5wIKhWUr1wTCK/Y=
 		</data>
 		<key>Headers/MCCCardType.h</key>
 		<data>
@@ -26,7 +22,7 @@
 		</data>
 		<key>Headers/MCCCheckoutRequest.h</key>
 		<data>
-		2ovEPOJOYm8OybcJqFmhLvjxegc=
+		pEtWj1KLyyGuZJTGtpsENeLnNeU=
 		</data>
 		<key>Headers/MCCCheckoutResponse.h</key>
 		<data>
@@ -34,7 +30,7 @@
 		</data>
 		<key>Headers/MCCConfiguration.h</key>
 		<data>
-		2OS6OPi5iz8kVuQCgetpIYFWOQQ=
+		FOlR95j6ejqeaHZr48ulNvX1Uyc=
 		</data>
 		<key>Headers/MCCCryptogram.h</key>
 		<data>
@@ -42,7 +38,7 @@
 		</data>
 		<key>Headers/MCCErrors.h</key>
 		<data>
-		evOPe8nKsnf/dXkfcKoS7Ltfmmc=
+		y/0u67RrHRZ4W3YfMhmpGGnF0VQ=
 		</data>
 		<key>Headers/MCCMasterpassButton.h</key>
 		<data>
@@ -50,11 +46,11 @@
 		</data>
 		<key>Headers/MCCMerchant.h</key>
 		<data>
-		yUpOr3eriZrBl4mdEBOyth1u+Hk=
+		O47p3+BvP8sYvF0zq2ThQJjn+og=
 		</data>
 		<key>Headers/MCCMerchantConstants.h</key>
 		<data>
-		K+futF+HXG8FExaDoH1aAIjAPRg=
+		DLOxjb6sn9L9QRP82awQPdxI39k=
 		</data>
 		<key>Headers/MCCMerchantDelegate.h</key>
 		<data>
@@ -66,27 +62,19 @@
 		</data>
 		<key>Headers/MCCUserDetail.h</key>
 		<data>
-		mc3p9z/Nj0kUHg/IxEWwsNXklkQ=
+		RnjXRuSNM8Mo16UwBRvvh2b2Z3o=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GFH3qxlCakcS0v/C0Tsel5L6ztk=
-		</data>
-		<key>L1K.cer</key>
-		<data>
-		8hwS9Gzbay4W8J+UGc3/MoQ3stc=
-		</data>
-		<key>MCCAppToApp.strings</key>
-		<data>
-		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		4FuHOKRNrP8y2gJpEFTm/E1vFVA=
 		</data>
 		<key>MCCMEX3DSVerification.storyboardc/8tQ-Q8-jto-view-3wc-bb-qxB.nib/objects-11.0+.nib</key>
 		<data>
-		NrOlsqJbXjI/tSWESSWA/PoHnh0=
+		IHVcTXL9gT52h9CUbB0pz2LxmMM=
 		</data>
 		<key>MCCMEX3DSVerification.storyboardc/8tQ-Q8-jto-view-3wc-bb-qxB.nib/runtime.nib</key>
 		<data>
-		EhWsG8cAFUvwa4PFaN/DaDfHn/M=
+		L7WA/JitwadUmEsPRzPUp6lUKMI=
 		</data>
 		<key>MCCMEX3DSVerification.storyboardc/Info.plist</key>
 		<data>
@@ -94,15 +82,15 @@
 		</data>
 		<key>MCCMEX3DSVerification.storyboardc/MCCMEX3DSVerificationVC.nib/objects-11.0+.nib</key>
 		<data>
-		9GWUj4b772b5Uk6A1RxQi8eMp5M=
+		6VNkqZepYX0ZguWVim7shbI8dDY=
 		</data>
 		<key>MCCMEX3DSVerification.storyboardc/MCCMEX3DSVerificationVC.nib/runtime.nib</key>
 		<data>
-		vbtN68F17PQJy9rvjoT5jhCYjJ0=
+		Mueg97+sZuHl211QmSxqw+2BqVU=
 		</data>
 		<key>MCCMEXAccountDetected.storyboardc/19C-zl-cnG-view-3UO-b6-z7w.nib</key>
 		<data>
-		TtEQzIuFgFTlUNA7b9T2gPvuQHA=
+		hv/W6LbP91sEXiNzsRluSWAruWI=
 		</data>
 		<key>MCCMEXAccountDetected.storyboardc/Info.plist</key>
 		<data>
@@ -110,39 +98,39 @@
 		</data>
 		<key>MCCMEXAccountDetected.storyboardc/MCCMEXAccountDetectedVC.nib</key>
 		<data>
-		wUVORORGCYk/z/CyvajKwWZ9/ig=
+		Di5LqndnhYZXwUrAHPUMCnkHimc=
 		</data>
 		<key>MCCMEXAccountDetected.storyboardc/UIViewController-19C-zl-cnG.nib</key>
 		<data>
-		7uxUYNbkzrdcWvG3iQREpifNhug=
+		463N9xHiRx99McNMryy0liNlYE0=
 		</data>
 		<key>MCCMEXAccountDetected.storyboardc/uPQ-bh-js7-view-aTq-9Y-uAn.nib</key>
 		<data>
-		CEMv6Qd2Z96hpXbPdM/w0xg2CWM=
+		RojYrAuIrlEUAn2JMqv037Snqws=
 		</data>
 		<key>MCCMEXAddCard.storyboardc/DRg-SO-h1Q-view-0hC-5G-jOB.nib</key>
 		<data>
-		Dnm9n19WF8VjxND+YNfAV0SLMEg=
+		HvaWDTBoFtw15J8uXuY7JWUNCyo=
 		</data>
 		<key>MCCMEXAddCard.storyboardc/Info.plist</key>
 		<data>
-		O5W/dF9+jYfca3hpZRUqltRXn0M=
+		RysvawVaA6rF3Y3poMQ28MC+9to=
 		</data>
 		<key>MCCMEXAddCard.storyboardc/MCCMEXAddCardVC.nib</key>
 		<data>
-		GESrxa+cBVgmPWPf5o8K6OkGA7s=
+		ZVDokn2yoAzHXvXfpUyT+yBB+Nw=
 		</data>
 		<key>MCCMEXAddCard.storyboardc/UIViewController-gUG-b8-d5p.nib</key>
 		<data>
-		CkSjDXME1j/B9RlIuQYyhJOmt34=
+		cfEPhaMUs5qICimRgQ/d+yCo8hQ=
 		</data>
 		<key>MCCMEXAddCard.storyboardc/gUG-b8-d5p-view-XPD-Fw-KdV.nib</key>
 		<data>
-		yX9b60tanfV6uEKSL1B0E5OdR7Y=
+		cabxA1hC4YZrvHhAbw2lYiqgsmA=
 		</data>
 		<key>MCCMEXInputFieldView.nib</key>
 		<data>
-		8IV06du6249o/dbClS53FKN6FlQ=
+		W5HGksS2eET7Fs4sSuvU8oKPSTw=
 		</data>
 		<key>MCCMEXLegalContent.storyboardc/Info.plist</key>
 		<data>
@@ -150,15 +138,15 @@
 		</data>
 		<key>MCCMEXLegalContent.storyboardc/MCCMEXLegalContentVC.nib</key>
 		<data>
-		tu/jMf0bb7tx1RkLocrmZGAPzZU=
+		T0fxjHiAshKV3h7XE22Xw1IOZlU=
 		</data>
 		<key>MCCMEXLegalContent.storyboardc/gwA-Qb-vqa-view-ApC-D3-cos.nib</key>
 		<data>
-		Lw2xkqEuvNvFqOKrSge5GWIQ/tY=
+		khY89izlIt3CMavd4JKGHu85kDU=
 		</data>
 		<key>MCCMEXMaskInputFieldView.nib</key>
 		<data>
-		W5fMTQOWRWa7hQCORfXGSUN7Sl0=
+		f8kWc0eANItivj6Gb9Mm0lDpmI4=
 		</data>
 		<key>MCCMEXNavigationController.storyboardc/Info.plist</key>
 		<data>
@@ -166,11 +154,11 @@
 		</data>
 		<key>MCCMEXNavigationController.storyboardc/MCCMEXNavigationController.nib</key>
 		<data>
-		ZEon5r2QoX4nGnhwuFwX1oT13Bs=
+		eYhHEowyB6wLWS2njEBHuwXbMBk=
 		</data>
 		<key>MCCMEXOneTimePasscode.storyboardc/8vy-77-XKh-view-qAN-7v-ALD.nib</key>
 		<data>
-		5mJN1WlKMjiXtKGra/wMrcthR2M=
+		dUPuG3knWEaJ44RfBkh+LzR7ZiM=
 		</data>
 		<key>MCCMEXOneTimePasscode.storyboardc/Info.plist</key>
 		<data>
@@ -178,19 +166,59 @@
 		</data>
 		<key>MCCMEXOneTimePasscode.storyboardc/MCCMEXOneTimePasscodeVC.nib</key>
 		<data>
-		P8gLNGLLFwjVWNEEImToFQkRs4Y=
+		C6GWlJjFpN0cU7XPO5rB4he5h1Y=
 		</data>
 		<key>MCCMEXOneTimePasscode.storyboardc/UIViewController-jZk-i8-Cg5.nib</key>
 		<data>
-		5wLx5149lbjKqGqySzCnNG1ZdO4=
+		tOFKwG8gcLmi7ve8t1vmV7fPEXc=
 		</data>
 		<key>MCCMEXOneTimePasscode.storyboardc/jZk-i8-Cg5-view-rIC-T2-wAv.nib</key>
 		<data>
-		sGPlFLYJFXK6GKrQdR9N54Wl8LY=
+		ALyI7u4/uXF3hbNJvUfVXHtNaj8=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/Info.plist</key>
+		<data>
+		Rn2Voz/Gkt2VTaPmDNIApLjYdGk=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/MCCMEXPinOperationVC.nib/objects-11.0+.nib</key>
+		<data>
+		lFAE7SwH+C/xS0FrGal9zFd1das=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/MCCMEXPinOperationVC.nib/runtime.nib</key>
+		<data>
+		eN8WRT3sseGvASlqmOA+KF06iwU=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/UIViewController-ubv-Dg-6YY.nib/objects-11.0+.nib</key>
+		<data>
+		Taa/a10dsO+mvyzJrhV9CwRf8iQ=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/UIViewController-ubv-Dg-6YY.nib/runtime.nib</key>
+		<data>
+		GuE2/WlF+1Flw2cfHUkJTmvZnAU=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/XuH-S1-2Lu-view-J0k-61-tb3.nib/objects-11.0+.nib</key>
+		<data>
+		ZtYbqzBPyG03RF/kUmIbJAxx09Y=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/XuH-S1-2Lu-view-J0k-61-tb3.nib/runtime.nib</key>
+		<data>
+		1bTVLOdniY/pMmb2N+M4QfwBwts=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/ubv-Dg-6YY-view-Hx2-nS-zZK.nib/objects-11.0+.nib</key>
+		<data>
+		xebf4iJxhnSwn7ypHcvtrcHpH2U=
+		</data>
+		<key>MCCMEXPinOperation.storyboardc/ubv-Dg-6YY-view-Hx2-nS-zZK.nib/runtime.nib</key>
+		<data>
+		d3oaxTI5QChgVzDZGnGGATK+xiA=
+		</data>
+		<key>MCCMEXPinPadView.nib</key>
+		<data>
+		WdQ2OdoJPUl3Qs9jHZ42ks4hrdo=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/4OH-SU-y7N-view-fZl-uy-sfA.nib</key>
 		<data>
-		BIOvXxVvUNvqnmriA4rOvn4MJW4=
+		xr47zcsjh0dLCxHqQZHnFPdAfKM=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/Info.plist</key>
 		<data>
@@ -198,27 +226,27 @@
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/Kjt-D0-wFi-view-acw-VJ-EDT.nib</key>
 		<data>
-		QQePtZKgZbYwMkpmL0mL3YJ2zSA=
+		f1ft0rJ4Qh0Om2o64+UkO8r8vZo=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/MCCMEXRecognizedCheckoutVC.nib</key>
 		<data>
-		+xo9et6UH53Ov8QH21qKDU1ZYME=
+		H3BEZcT21MB/cehogWdfrkrC9vw=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/UITableViewController-Kjt-D0-wFi.nib</key>
 		<data>
-		aAjkuPBT/+eV06N6UHEH7Cy1tX8=
+		rtRG8ygyrDcrfM1P/wF80uiBeCg=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/UIViewController-4OH-SU-y7N.nib</key>
 		<data>
-		xavlyc4eU/YCin7QPQep92UlHGI=
+		HcpN+ZiLuGUCYlgNV65qrWcN8Kg=
 		</data>
 		<key>MCCMEXRecognizedCheckout.storyboardc/VYo-jw-SFr-view-tUS-Td-Zt5.nib</key>
 		<data>
-		s0itln4PKQkgbIZxX4wEuSkBv60=
+		yyKFyNF+kSAe2ug1TLHT0oHU15U=
 		</data>
 		<key>MCCMEXRegistration.storyboardc/DRg-SO-h1Q-view-0hC-5G-jOB.nib</key>
 		<data>
-		Q1Ne30B9Z5AmMLawXoQ7L0C96OU=
+		KjplkiTrLd4ib2SbqVF07MhuEeg=
 		</data>
 		<key>MCCMEXRegistration.storyboardc/Info.plist</key>
 		<data>
@@ -226,15 +254,51 @@
 		</data>
 		<key>MCCMEXRegistration.storyboardc/MCCMEXRegistrationVC.nib</key>
 		<data>
-		eHEKpMhieytZqjgBQGTEPmGBwF8=
+		09x9sBBCr4/9ddFpkyUz63V+jrM=
 		</data>
 		<key>MCCMEXRegistration.storyboardc/UIViewController-gUG-b8-d5p.nib</key>
 		<data>
-		6o5YfYAQ3vmNpfNNlvbEpmhWKLk=
+		3k6owY3V/cPe5XgVjUR0N4N4Hvc=
 		</data>
 		<key>MCCMEXRegistration.storyboardc/gUG-b8-d5p-view-XPD-Fw-KdV.nib</key>
 		<data>
-		vadUSKJwCiSfNHAmPdcw89/x6uo=
+		7Hr3tnhz6XnquRVxOSC+m5ppBwM=
+		</data>
+		<key>MCCMEXResources.bundle/L1K.cer</key>
+		<data>
+		8hwS9Gzbay4W8J+UGc3/MoQ3stc=
+		</data>
+		<key>MCCMEXResources.bundle/MCCAnalytics.strings</key>
+		<data>
+		R/H0jZsCnt1LnjZUW5oA/SVdTdA=
+		</data>
+		<key>MCCMEXResources.bundle/MCCMEX.strings</key>
+		<data>
+		5Q/qMIwqK2LOaRbyhWOZTG/AJBw=
+		</data>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Bold.ttf</key>
+		<data>
+		Pq8U5SN68BIVDXiQI4AWZup9W4I=
+		</data>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Light.ttf</key>
+		<data>
+		sp97/feU/D4NRJjil1xsa74Uvts=
+		</data>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Medium.ttf</key>
+		<data>
+		gr99epy0C3k37Y9Jmlqh9RpBs/8=
+		</data>
+		<key>MCCMEXResources.bundle/SVGTemplate.html</key>
+		<data>
+		GMoaL0SHW3FlwVTh8jpgpHc9rY4=
+		</data>
+		<key>MCCMEXResources.bundle/default-card-schema.json</key>
+		<data>
+		EWPA/t66WSKiEz2SBSiZDcUOcFI=
+		</data>
+		<key>MCCMEXResources.bundle/en-US.json</key>
+		<data>
+		z1hVwveoGy7Smu7BN+mhaENYLfg=
 		</data>
 		<key>MCCMEXScanCard.storyboardc/Info.plist</key>
 		<data>
@@ -242,11 +306,11 @@
 		</data>
 		<key>MCCMEXScanCard.storyboardc/MCCMEXScanCardVC.nib</key>
 		<data>
-		odI/cHqvvRmJH0T9Z8beTTpYpIg=
+		hCIscc2mOGxKeqJ1jactlLYPuVI=
 		</data>
 		<key>MCCMEXScanCard.storyboardc/pKW-Zq-GQ8-view-qCL-6U-nEa.nib</key>
 		<data>
-		mhqudDGXN2NzcCBBAulwGYeeEOM=
+		t+Q8jtJ/SCfRQ6zNnuGVhM8oDyk=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/Info.plist</key>
 		<data>
@@ -254,27 +318,27 @@
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/MCCMEXSelectPaymentVC.nib</key>
 		<data>
-		qCrxVj24q4lwLJ6brlGI7rfctz4=
+		injDCnpBRhhoCLC0CfpqbOxVrwg=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/QTs-1X-ReA-view-un3-VT-FKw.nib</key>
 		<data>
-		6ZrIdjdx0SE/j43Tp29oKeyHpNo=
+		q7N5YCnUaKvHMB/51NBmE426zW4=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/UITableViewController-QTs-1X-ReA.nib</key>
 		<data>
-		Li3j5OmxgmQeFrPre+//dqHNyaM=
+		SdtTSNGPyrXmYmfWtAsi4N9HGZI=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/UIViewController-Y9j-kG-ATa.nib</key>
 		<data>
-		7L850Q/bP0xMcn/Q27dTTaU0XY0=
+		79vUi2yUCyjAODvA4LzJeKPVb2w=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/Y9j-kG-ATa-view-5QB-Jg-IiA.nib</key>
 		<data>
-		M1GTYtA+En9M4OMueLvlTLFP5lE=
+		vG5DNuH44P8KZk9Z2WJUNNQinSs=
 		</data>
 		<key>MCCMEXSelectPayment.storyboardc/a8B-OM-3Iq-view-dAC-K0-adm.nib</key>
 		<data>
-		8rlIEtXh/6KwvnrjD5TEg2NKVtI=
+		KGIztpGZlDux4Q7c/HKDZ+p6ia0=
 		</data>
 		<key>MCCMEXSignIn.storyboardc/Info.plist</key>
 		<data>
@@ -282,19 +346,19 @@
 		</data>
 		<key>MCCMEXSignIn.storyboardc/MCCMEXSignInVC.nib</key>
 		<data>
-		WgLjhZNoqNmdv6vP+T9ba1iFNU8=
+		lQbVDAiQcg6CMCQMU/6eExtiFEA=
 		</data>
 		<key>MCCMEXSignIn.storyboardc/UIViewController-oZq-p1-Gns.nib</key>
 		<data>
-		OkXw/+k4y1ezd2drPX5bZ8UEAZI=
+		m+ew66vc4IY+mCEzZKR18oj2vwM=
 		</data>
 		<key>MCCMEXSignIn.storyboardc/iM5-mq-X6o-view-NHE-b9-8ow.nib</key>
 		<data>
-		QMo1fonWk30wxIiS7EP9xNKW+z0=
+		QnQM28oeLwIBGdx2ipU8A+eqIhc=
 		</data>
 		<key>MCCMEXSignIn.storyboardc/oZq-p1-Gns-view-zZ8-2o-TTS.nib</key>
 		<data>
-		QbiRt8mdDBu0mIpKacdzcCnivF8=
+		7OHT4DRokCNlwAmeyY1rrN+qalI=
 		</data>
 		<key>MCCMerchantDB.momd/MCCMerchantDB.mom</key>
 		<data>
@@ -304,103 +368,44 @@
 		<data>
 		2VqxpuImgugluGK/j18O7UpNIWU=
 		</data>
-		<key>MCCWalletSelector.storyboardc/Info.plist</key>
-		<data>
-		npuTUFwkxYilLo+LUxT1vn/Ny3M=
-		</data>
-		<key>MCCWalletSelector.storyboardc/MCCWalletSelectorVC.nib</key>
-		<data>
-		pV527Xu23hsL8ZdlkK+2Y8N30RA=
-		</data>
-		<key>MCCWalletSelector.storyboardc/UQs-jQ-mxI-view-LzQ-8H-bVv.nib</key>
-		<data>
-		7T27XWyb4O2at3Keapr8o4yW5D0=
-		</data>
-		<key>MCFAnalytics.strings</key>
-		<data>
-		NEf/ys4taO2hB88J6RVMg410ZT0=
-		</data>
-		<key>MarkOffcPro-Bold.ttf</key>
-		<data>
-		Pq8U5SN68BIVDXiQI4AWZup9W4I=
-		</data>
-		<key>MarkOffcPro-Light.ttf</key>
-		<data>
-		sp97/feU/D4NRJjil1xsa74Uvts=
-		</data>
-		<key>MarkOffcPro-Medium.ttf</key>
-		<data>
-		gr99epy0C3k37Y9Jmlqh9RpBs/8=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		S+Zmp9h69ZHaJH+YixGLs0/1bvE=
 		</data>
-		<key>SVGTemplate.html</key>
-		<data>
-		GMoaL0SHW3FlwVTh8jpgpHc9rY4=
-		</data>
-		<key>default-card-schema.json</key>
-		<data>
-		EWPA/t66WSKiEz2SBSiZDcUOcFI=
-		</data>
-		<key>en-US.json</key>
-		<data>
-		CeJLb3sBHfxhKk+/3FO8NB/z31c=
-		</data>
-		<key>mex_sandbox_public_key.cer</key>
-		<data>
-		r1Rx9mraJl8+NONN7ZqzKg8Iss8=
-		</data>
-		<key>wlw_sandbox_public_key.cer</key>
-		<data>
-		HlWyN5mAUyn3A4UyoH5TOtw/nwU=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ADBMobileConfig.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MoT3zFA0hOAmromFQ2JTmmak87U=
-			</data>
-			<key>hash2</key>
-			<data>
-			B21U7VHRo9hul0bbTsyolhpuOpSIrNNZ/QWuP0djccI=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QjSsu882UY8JNZTy2okCrkn4uJQ=
+			qklOTxSxWerAQQvRwffD4ST2Mvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fv1lKd1+IyqcAZDfT3Fbv4w3Tvk/qRhxNEyYvFxECJA=
+			pbteTxQHA48P7c3mJKmTjM9DIIP4nfqYdIH+l0Wzp3o=
 			</data>
 		</dict>
 		<key>Headers/MCCAmount.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rJv6TgggJpxW5AGzqEik5QP3WKc=
+			ju5nKvesLWsiyKHpJLmH8+LrnG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			dRipEkhbTYddg3+cbvUyJlqlRWneiF/eNqPCNbZE5GA=
+			HAW6kcaN/r5NuTE/H90vEWfE8DTalFXMNykHLF5u3ak=
 			</data>
 		</dict>
 		<key>Headers/MCCBlocks.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B67QNaKnLGdJDKLzSySXU4PnErU=
+			55WYTxB8oLHo5wIKhWUr1wTCK/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			4aAvchljKlSWCQJceprUloK/Y1xbljANd/pm0ESEbcI=
+			ngxARDQgxV4XhPRGGmbuyLT8HrX7k211oREUdTi2GWk=
 			</data>
 		</dict>
 		<key>Headers/MCCCardType.h</key>
@@ -418,11 +423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2ovEPOJOYm8OybcJqFmhLvjxegc=
+			pEtWj1KLyyGuZJTGtpsENeLnNeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qnwr+qkZ6gb5vSVb5KWugLKXYDZIaP3Tx034LviUEy8=
+			6SHAOqZSLHNcDyXUwDIbCdh9i4J/CaBXGDC96SbgUcA=
 			</data>
 		</dict>
 		<key>Headers/MCCCheckoutResponse.h</key>
@@ -440,11 +445,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2OS6OPi5iz8kVuQCgetpIYFWOQQ=
+			FOlR95j6ejqeaHZr48ulNvX1Uyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			k/eiDlIpa64STbubO06Cc2K+O6Dao+ThKoQkETyksRo=
+			4XHb6RN3WJ7W+LQyMeWQD9zQ2x5XEJVtGl6JnHb51Lg=
 			</data>
 		</dict>
 		<key>Headers/MCCCryptogram.h</key>
@@ -462,11 +467,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			evOPe8nKsnf/dXkfcKoS7Ltfmmc=
+			y/0u67RrHRZ4W3YfMhmpGGnF0VQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xbZpGD7Dz/9y5cryyebNNmApiRkHzcF7UJTg2MGhK9o=
+			Olbjn0b7KP02HQZqpcleJu+/Mf+tuKrDuQTo1mjZCOM=
 			</data>
 		</dict>
 		<key>Headers/MCCMasterpassButton.h</key>
@@ -484,22 +489,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yUpOr3eriZrBl4mdEBOyth1u+Hk=
+			O47p3+BvP8sYvF0zq2ThQJjn+og=
 			</data>
 			<key>hash2</key>
 			<data>
-			2pCyGL8iQoTbasK4KJT7CAwTKlqTFqIkjvWoeCrZHu0=
+			yIohCJZjUBxA2PpFi/Db66MwGPINFY3E8ozpYvsIn0U=
 			</data>
 		</dict>
 		<key>Headers/MCCMerchantConstants.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K+futF+HXG8FExaDoH1aAIjAPRg=
+			DLOxjb6sn9L9QRP82awQPdxI39k=
 			</data>
 			<key>hash2</key>
 			<data>
-			3gg94EMTVidVjJDXK77dnasNUCzK6HOTWzAgd82TDPA=
+			p7XYCOd2ktRnnu9arsxOdGIN66H2sETYcshaTBR1HII=
 			</data>
 		</dict>
 		<key>Headers/MCCMerchantDelegate.h</key>
@@ -528,55 +533,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mc3p9z/Nj0kUHg/IxEWwsNXklkQ=
+			RnjXRuSNM8Mo16UwBRvvh2b2Z3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			K87KsbMRVkVjWJ7/8XdFsAPKBjvog0HMNp8LS3QEphs=
-			</data>
-		</dict>
-		<key>L1K.cer</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8hwS9Gzbay4W8J+UGc3/MoQ3stc=
-			</data>
-			<key>hash2</key>
-			<data>
-			E++zmi9mVOjGe9BPTG1MkM1sq1CRvO3HN4f2t309P+c=
-			</data>
-		</dict>
-		<key>MCCAppToApp.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
-			</data>
-			<key>hash2</key>
-			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			Ih33ingNzJXpqLJoMLTk8KRNrJGDD8P65A/mfIfbmuA=
 			</data>
 		</dict>
 		<key>MCCMEX3DSVerification.storyboardc/8tQ-Q8-jto-view-3wc-bb-qxB.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NrOlsqJbXjI/tSWESSWA/PoHnh0=
+			IHVcTXL9gT52h9CUbB0pz2LxmMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YNd4vpZX2GwRtliy3DDZ8GPDAjdB2CgoA60LDNC8kYc=
+			opD8upx2LIITegpP65TdDMNQPXj6hXEnaX6cxVlxmjM=
 			</data>
 		</dict>
 		<key>MCCMEX3DSVerification.storyboardc/8tQ-Q8-jto-view-3wc-bb-qxB.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EhWsG8cAFUvwa4PFaN/DaDfHn/M=
+			L7WA/JitwadUmEsPRzPUp6lUKMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			H/+Xl+bpewED//nRG//TxYXCZcqCtzqDGV9biGhg0d8=
+			B2tSo7jmolvphNi5XtPBtZgrX63Ffyck3y28vu91xoo=
 			</data>
 		</dict>
 		<key>MCCMEX3DSVerification.storyboardc/Info.plist</key>
@@ -594,33 +577,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9GWUj4b772b5Uk6A1RxQi8eMp5M=
+			6VNkqZepYX0ZguWVim7shbI8dDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vYGStmeK/fmEvl6+D/q0dnFTZoWnH4dc2nCVfbeKYYA=
+			qZiZcTAb62iEwBwMhwV14m1WEjk0jTlMBPUdfbrM8AA=
 			</data>
 		</dict>
 		<key>MCCMEX3DSVerification.storyboardc/MCCMEX3DSVerificationVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vbtN68F17PQJy9rvjoT5jhCYjJ0=
+			Mueg97+sZuHl211QmSxqw+2BqVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ChrzggH73HM8Yk4LE7mYorEVUoOTPyAeYHY5NzjKeY=
+			JZbrnaI0uRLraYrhl1ZycgMJv27xfAnrMvXDG04PSqo=
 			</data>
 		</dict>
 		<key>MCCMEXAccountDetected.storyboardc/19C-zl-cnG-view-3UO-b6-z7w.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TtEQzIuFgFTlUNA7b9T2gPvuQHA=
+			hv/W6LbP91sEXiNzsRluSWAruWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oGx+g+neiJhYuU4+n0yO/SrxaOVK624lXsUUI/AYWng=
+			atmYSiQ+4RHJNGLAOtKa0Axm9At6eTK2dDLZUuV+I7w=
 			</data>
 		</dict>
 		<key>MCCMEXAccountDetected.storyboardc/Info.plist</key>
@@ -638,99 +621,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wUVORORGCYk/z/CyvajKwWZ9/ig=
+			Di5LqndnhYZXwUrAHPUMCnkHimc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z0dpNifd/51c1qVyKanN/axvn6bLwum4XXEi9X+Vjjc=
+			3XQBu+fU94xcVcRyvrEqDnfPwNXOSDYUAcO1HLO3bBE=
 			</data>
 		</dict>
 		<key>MCCMEXAccountDetected.storyboardc/UIViewController-19C-zl-cnG.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7uxUYNbkzrdcWvG3iQREpifNhug=
+			463N9xHiRx99McNMryy0liNlYE0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXv4wbb6qXQZwVl3HQTi6V5LYlwolu9+mguQ+tmtMI4=
+			zwC81Ta+PuVTMjKfeTiKT+Cs6ugJ2IS+co3XfHQbnAM=
 			</data>
 		</dict>
 		<key>MCCMEXAccountDetected.storyboardc/uPQ-bh-js7-view-aTq-9Y-uAn.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CEMv6Qd2Z96hpXbPdM/w0xg2CWM=
+			RojYrAuIrlEUAn2JMqv037Snqws=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3gE9ruKYgiPj6rf3AZFT+Llqs1HTp1HDelsn/o9YSc=
+			DO0CpFeGykL+dAigBR/pJAim1tr7nTApDVxdlKUJycA=
 			</data>
 		</dict>
 		<key>MCCMEXAddCard.storyboardc/DRg-SO-h1Q-view-0hC-5G-jOB.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dnm9n19WF8VjxND+YNfAV0SLMEg=
+			HvaWDTBoFtw15J8uXuY7JWUNCyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			fzf9CTFIvqP2cJsaPBNcFSALukjxj9vGlzhedCZirgM=
+			3YVMUk8rvixRRYlTdheGMPBCtTOcwgHslGL1uOFZe8w=
 			</data>
 		</dict>
 		<key>MCCMEXAddCard.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O5W/dF9+jYfca3hpZRUqltRXn0M=
+			RysvawVaA6rF3Y3poMQ28MC+9to=
 			</data>
 			<key>hash2</key>
 			<data>
-			SXBbhw8C2E1g20x5Wd70JDuv/HLW6ITRlxQGmUwHhLs=
+			jzQLagJ0L+3IS4lBXo38yaLJAfXPI7MpyhmO6+tuu+s=
 			</data>
 		</dict>
 		<key>MCCMEXAddCard.storyboardc/MCCMEXAddCardVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GESrxa+cBVgmPWPf5o8K6OkGA7s=
+			ZVDokn2yoAzHXvXfpUyT+yBB+Nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oPqGSLl5yGJcJNZUL0z8P3+9OMQY0ROxBWimHvSG+uI=
+			/Fjrr5sl7rIO1j4z+k+KSWQSVVbwffdMApDHGbXlK2M=
 			</data>
 		</dict>
 		<key>MCCMEXAddCard.storyboardc/UIViewController-gUG-b8-d5p.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CkSjDXME1j/B9RlIuQYyhJOmt34=
+			cfEPhaMUs5qICimRgQ/d+yCo8hQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			bK+RwzeW1YeDmzTX4DnN4MBRjeks+X1GRNglTazGoDI=
+			e6A/xSrJaMRMPv5JdI4RIoSpg3lL8bTOZ3GslW4h4FI=
 			</data>
 		</dict>
 		<key>MCCMEXAddCard.storyboardc/gUG-b8-d5p-view-XPD-Fw-KdV.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yX9b60tanfV6uEKSL1B0E5OdR7Y=
+			cabxA1hC4YZrvHhAbw2lYiqgsmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hflLVHpgIwPKIrvvxl/l2MbM0IEerbFIuoeLh6ez+bE=
+			SZ7S2e0yLlYo0auraWr3ZVVfyOXtWFIDgIBYXYehfbg=
 			</data>
 		</dict>
 		<key>MCCMEXInputFieldView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8IV06du6249o/dbClS53FKN6FlQ=
+			W5HGksS2eET7Fs4sSuvU8oKPSTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			2vHQedIZyuJWvmSMMy97TSrKLyqlNJRktArQN51Wcys=
+			eLfEGq0R8OZ0LfbuG1pl3l0yGU7RxxMN2uCEPC81xK0=
 			</data>
 		</dict>
 		<key>MCCMEXLegalContent.storyboardc/Info.plist</key>
@@ -748,33 +731,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tu/jMf0bb7tx1RkLocrmZGAPzZU=
+			T0fxjHiAshKV3h7XE22Xw1IOZlU=
 			</data>
 			<key>hash2</key>
 			<data>
-			WMMvhLDkOPJ34d+rCym9C1u7p177zwRGZJqsACAkBCk=
+			wB/OJajWUBvvLWKHjuAwb3f/VCwKAh3H59p4ypdHQOo=
 			</data>
 		</dict>
 		<key>MCCMEXLegalContent.storyboardc/gwA-Qb-vqa-view-ApC-D3-cos.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Lw2xkqEuvNvFqOKrSge5GWIQ/tY=
+			khY89izlIt3CMavd4JKGHu85kDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ka/FLmO5/DIRpPv9Tzj1OgUqOivRBVeoEYcJjxbL3fk=
+			dZ6AJjUOaxLzfnqm18YWzRi60mFuC97eNFrrBUxTk7A=
 			</data>
 		</dict>
 		<key>MCCMEXMaskInputFieldView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W5fMTQOWRWa7hQCORfXGSUN7Sl0=
+			f8kWc0eANItivj6Gb9Mm0lDpmI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+0xh2ENfqGu26PTqQJFiV1kgaEkVmsRq4LTVPoxWT8=
+			ksRw0Iz4HKdcwOJYXR7OjMBaYx0MpDdLWbVEF+R16fI=
 			</data>
 		</dict>
 		<key>MCCMEXNavigationController.storyboardc/Info.plist</key>
@@ -792,22 +775,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZEon5r2QoX4nGnhwuFwX1oT13Bs=
+			eYhHEowyB6wLWS2njEBHuwXbMBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			uIj9mnc5RZDtip7NA6Y1kfxnumvWxF8m1ezqtM5mXp0=
+			yoJG38LEoHMp8HNKtN85vcZDEfZDpgaYjvnAa4gEeo0=
 			</data>
 		</dict>
 		<key>MCCMEXOneTimePasscode.storyboardc/8vy-77-XKh-view-qAN-7v-ALD.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5mJN1WlKMjiXtKGra/wMrcthR2M=
+			dUPuG3knWEaJ44RfBkh+LzR7ZiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QoXcQ3WvkmTFBJffmsNV/bx6NGqXJrRUnW3y5BEjgRc=
+			AEZtlk0F+DE6ao39n9tvpPCJulVSIo86MPdWsKXmlLY=
 			</data>
 		</dict>
 		<key>MCCMEXOneTimePasscode.storyboardc/Info.plist</key>
@@ -825,44 +808,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P8gLNGLLFwjVWNEEImToFQkRs4Y=
+			C6GWlJjFpN0cU7XPO5rB4he5h1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			tfAsTxukUieJ8wN4oW8V3fZucxbKf+zU4xa3aH/TvJA=
+			fK2R8k4P6AUlh6aGc1K+XM7tWABPuMWsVdTYtd2Vhuc=
 			</data>
 		</dict>
 		<key>MCCMEXOneTimePasscode.storyboardc/UIViewController-jZk-i8-Cg5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5wLx5149lbjKqGqySzCnNG1ZdO4=
+			tOFKwG8gcLmi7ve8t1vmV7fPEXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			q1n34iumzPn8mi5EzEwFfQTXaZz8SjIRFwtpHoX8KXY=
+			6Vul3nDTIdjnL21n6vVHUfOx0fiKpZOdALFWohz/tuc=
 			</data>
 		</dict>
 		<key>MCCMEXOneTimePasscode.storyboardc/jZk-i8-Cg5-view-rIC-T2-wAv.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sGPlFLYJFXK6GKrQdR9N54Wl8LY=
+			ALyI7u4/uXF3hbNJvUfVXHtNaj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+j6TasMZYwrW5RDaCcSs4XgujRzfxo7ez2H1vzwCS0w=
+			4gFTbYIDsdt9M0M/bvsph5La+361axKJhyEmJ57NXOk=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rn2Voz/Gkt2VTaPmDNIApLjYdGk=
+			</data>
+			<key>hash2</key>
+			<data>
+			PI2yqZnOjfzmHSXKcRrIOorJW0IqJi6c3f56ICJp5iU=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/MCCMEXPinOperationVC.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lFAE7SwH+C/xS0FrGal9zFd1das=
+			</data>
+			<key>hash2</key>
+			<data>
+			KBHH+AbuzC8rzNXJcWD+87y8t+6EOj2AjnT/ustfg2U=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/MCCMEXPinOperationVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eN8WRT3sseGvASlqmOA+KF06iwU=
+			</data>
+			<key>hash2</key>
+			<data>
+			OAN4uDLA+1CXNnrkT55LVUDRur1Yi3+ulaX39HZOI4c=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/UIViewController-ubv-Dg-6YY.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Taa/a10dsO+mvyzJrhV9CwRf8iQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			EleabyMsNrfYkA7zu1T6lZJ6ZzGCU7/z/MbSLb676XU=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/UIViewController-ubv-Dg-6YY.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GuE2/WlF+1Flw2cfHUkJTmvZnAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			RHJf5s00MneDh3v7jsoUtti5AxTuKyr4kXI1EtZSSMs=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/XuH-S1-2Lu-view-J0k-61-tb3.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZtYbqzBPyG03RF/kUmIbJAxx09Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			xjgcV2s3P4dsaBdciUocinSdtD6pFrxtCcA4x76hC70=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/XuH-S1-2Lu-view-J0k-61-tb3.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1bTVLOdniY/pMmb2N+M4QfwBwts=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZHg5PqNDQc035/QARmxPTvVt6UM5toNO8GtzTVpFgbc=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/ubv-Dg-6YY-view-Hx2-nS-zZK.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xebf4iJxhnSwn7ypHcvtrcHpH2U=
+			</data>
+			<key>hash2</key>
+			<data>
+			VcmwuMVatSuRKogV9CnV2A4stS2p292RHzHCXzVX+W8=
+			</data>
+		</dict>
+		<key>MCCMEXPinOperation.storyboardc/ubv-Dg-6YY-view-Hx2-nS-zZK.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d3oaxTI5QChgVzDZGnGGATK+xiA=
+			</data>
+			<key>hash2</key>
+			<data>
+			bBx4hegL9AJFOuxGzIGLNxU9XO+gLAZV07tDIN73JqY=
+			</data>
+		</dict>
+		<key>MCCMEXPinPadView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WdQ2OdoJPUl3Qs9jHZ42ks4hrdo=
+			</data>
+			<key>hash2</key>
+			<data>
+			4EX8SgpbI+E8EqWR0RNnHkxbCJf6vL2z/EhbBkfMFbA=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/4OH-SU-y7N-view-fZl-uy-sfA.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BIOvXxVvUNvqnmriA4rOvn4MJW4=
+			xr47zcsjh0dLCxHqQZHnFPdAfKM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rZSt2bIpCTRpVxtEfH/Mr2Yh47Xu4WP7AagX4sCL1TQ=
+			NzZK0JKQYznyX+wydiEGm+KJTzk7beQ+0wpqL1Ywe5M=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/Info.plist</key>
@@ -880,66 +973,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QQePtZKgZbYwMkpmL0mL3YJ2zSA=
+			f1ft0rJ4Qh0Om2o64+UkO8r8vZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGvrRgQgIX4DZnJCBd70ygLbK3rkLtAOMRaOuJ+SFsM=
+			el19l/78ShwafJA0fSPd/ELr6q83MCqkr4tnZesC6o0=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/MCCMEXRecognizedCheckoutVC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+xo9et6UH53Ov8QH21qKDU1ZYME=
+			H3BEZcT21MB/cehogWdfrkrC9vw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WnV0tJFG+WhOdwWNUnouqiTeSiRWMaOD/62n8LcgMos=
+			MUD40FtH476QkON4mS8vU4Y/fcQGowAuAjPOsi3TqN0=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/UITableViewController-Kjt-D0-wFi.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aAjkuPBT/+eV06N6UHEH7Cy1tX8=
+			rtRG8ygyrDcrfM1P/wF80uiBeCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MYZCoEbIRiyPBBAzO6lXBQcZPkvVMM00TQe7GMs8XBk=
+			dfF/AfGwq7r9x4YIMyl9tzEEw/B5dC1r69TA8qlRkJI=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/UIViewController-4OH-SU-y7N.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xavlyc4eU/YCin7QPQep92UlHGI=
+			HcpN+ZiLuGUCYlgNV65qrWcN8Kg=
 			</data>
 			<key>hash2</key>
 			<data>
-			skUj7KkH4li36K1Y8oyCgyioVzVxuZabZ7oAwy/0HmY=
+			ycse7QJGvxOfDl7VkgmruiTTjI+j4BobKusPXXtmcck=
 			</data>
 		</dict>
 		<key>MCCMEXRecognizedCheckout.storyboardc/VYo-jw-SFr-view-tUS-Td-Zt5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s0itln4PKQkgbIZxX4wEuSkBv60=
+			yyKFyNF+kSAe2ug1TLHT0oHU15U=
 			</data>
 			<key>hash2</key>
 			<data>
-			2VnY7r6wXZGP41kHvKk97c1Z1RmH/Msjdegn9H508dw=
+			iG7f3Jxmzme2wKAext/ZAkxugwlAs1qQ8kIV88Rqwbw=
 			</data>
 		</dict>
 		<key>MCCMEXRegistration.storyboardc/DRg-SO-h1Q-view-0hC-5G-jOB.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q1Ne30B9Z5AmMLawXoQ7L0C96OU=
+			KjplkiTrLd4ib2SbqVF07MhuEeg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7qw9CstlqeCK4mkLaTL4JzSTciiqC1OXNIk+NohXj8k=
+			3jTu8GC+ekZ/ql2r0vbCb0y9HmhWuckpDIL8BMSd1+E=
 			</data>
 		</dict>
 		<key>MCCMEXRegistration.storyboardc/Info.plist</key>
@@ -957,33 +1050,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eHEKpMhieytZqjgBQGTEPmGBwF8=
+			09x9sBBCr4/9ddFpkyUz63V+jrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			c4RjMaX3hUdJE4VwRL+pGFwxTzMP8IfrNF1zl8fR0y0=
+			E8qYke4HtFXUVWxCqZDBc5b25xBxrXDnusYJjnsSjsA=
 			</data>
 		</dict>
 		<key>MCCMEXRegistration.storyboardc/UIViewController-gUG-b8-d5p.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6o5YfYAQ3vmNpfNNlvbEpmhWKLk=
+			3k6owY3V/cPe5XgVjUR0N4N4Hvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			K5RAfI4Zdd2vR4DT3qQTsxPyWnSiLBwTAIWmkcoBXJc=
+			POIJc9as7rkoolfOeojenaW5tS/fSzcMHailAU+sgm8=
 			</data>
 		</dict>
 		<key>MCCMEXRegistration.storyboardc/gUG-b8-d5p-view-XPD-Fw-KdV.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vadUSKJwCiSfNHAmPdcw89/x6uo=
+			7Hr3tnhz6XnquRVxOSC+m5ppBwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3rfr4rfdAKaR+IYqRzCUFz4HHKJDCOXN11maiNxWgw=
+			me5jSDtAPnyRmod9Mf3kJKWHQq9Cgsou0dp43HOl4qw=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/L1K.cer</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8hwS9Gzbay4W8J+UGc3/MoQ3stc=
+			</data>
+			<key>hash2</key>
+			<data>
+			E++zmi9mVOjGe9BPTG1MkM1sq1CRvO3HN4f2t309P+c=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/MCCAnalytics.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R/H0jZsCnt1LnjZUW5oA/SVdTdA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ahy3LDwmAKPN+Mb/pQg6ZmmQJGa+7SXmNIxrv0s1rlg=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/MCCMEX.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5Q/qMIwqK2LOaRbyhWOZTG/AJBw=
+			</data>
+			<key>hash2</key>
+			<data>
+			rFCEUg5/qfykt/EbIEDB0JShmvYQvIO5v3Ro4OQwBYg=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pq8U5SN68BIVDXiQI4AWZup9W4I=
+			</data>
+			<key>hash2</key>
+			<data>
+			0kMNkPAi7Ql38MXsIg1uHSBnXRGqLROS25frU3C864U=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sp97/feU/D4NRJjil1xsa74Uvts=
+			</data>
+			<key>hash2</key>
+			<data>
+			mkyaZyO3jN79ASQhtiIujlTn45jHLjjUSpkXCKRbDXw=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/MarkOffcPro-Medium.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gr99epy0C3k37Y9Jmlqh9RpBs/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NhbbMuyCNNEWh9YqXQATq4nLodaMmXgoXXE6IUcI1XA=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/SVGTemplate.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GMoaL0SHW3FlwVTh8jpgpHc9rY4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+J8B25ySRR5+MgqhSLNKrRJ5IPzglSGxcDRe5SCvCv0=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/default-card-schema.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EWPA/t66WSKiEz2SBSiZDcUOcFI=
+			</data>
+			<key>hash2</key>
+			<data>
+			gr5MTewjRkqivsBeMUJDqa3md3lo3n/+IsHxwFo/qMI=
+			</data>
+		</dict>
+		<key>MCCMEXResources.bundle/en-US.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z1hVwveoGy7Smu7BN+mhaENYLfg=
+			</data>
+			<key>hash2</key>
+			<data>
+			bFLCqLhqILZIYvz6IMtK3V4wNS+AK06lj8JsPeGz5xY=
 			</data>
 		</dict>
 		<key>MCCMEXScanCard.storyboardc/Info.plist</key>
@@ -1001,22 +1193,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			odI/cHqvvRmJH0T9Z8beTTpYpIg=
+			hCIscc2mOGxKeqJ1jactlLYPuVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Spxz1WTEkDNQUDbHSu4G0alBZj7npB3eWtk+sqMfLik=
+			ARceYsQ+5rJbO65evxqO6uDk3sKLpn/wOg+/FtvGrfE=
 			</data>
 		</dict>
 		<key>MCCMEXScanCard.storyboardc/pKW-Zq-GQ8-view-qCL-6U-nEa.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mhqudDGXN2NzcCBBAulwGYeeEOM=
+			t+Q8jtJ/SCfRQ6zNnuGVhM8oDyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			KsuM6vCmtW9vJgxWz9yWi3RubzgIzdGiXWwaaa2YH3A=
+			UdGgK61jWiLfIihP4t3xPIdF+kHwMHWKgOmv/6Lfv68=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/Info.plist</key>
@@ -1034,66 +1226,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qCrxVj24q4lwLJ6brlGI7rfctz4=
+			injDCnpBRhhoCLC0CfpqbOxVrwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QqFi5tCg3UJyL+ya+4Yzh/s2fDqH+GtDqpvMnerQhzw=
+			JpdHLaKHFzT4cN/PyR30IhUQ1V8D25oXE/yby6ksIo0=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/QTs-1X-ReA-view-un3-VT-FKw.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ZrIdjdx0SE/j43Tp29oKeyHpNo=
+			q7N5YCnUaKvHMB/51NBmE426zW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			c2/rw+EpoVF4jl+WM6LlWBmT/LHq8g1rlPfOsExjfxE=
+			07vTuWOL+mDyZ2RUbvR4bEEk8rQX1rQaBqQeztSoOKA=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/UITableViewController-QTs-1X-ReA.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Li3j5OmxgmQeFrPre+//dqHNyaM=
+			SdtTSNGPyrXmYmfWtAsi4N9HGZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7/OoZOuCjKgosseW09nRCO9EyOxhQM9f7iS3zEnnv0A=
+			z6fDmfnMV+cLcggqlCcFQj664z2bHNiYM4LtTcV1ZpU=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/UIViewController-Y9j-kG-ATa.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7L850Q/bP0xMcn/Q27dTTaU0XY0=
+			79vUi2yUCyjAODvA4LzJeKPVb2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			w2NuHtXAZHGr2qAz/bmSwJ++hDW3H+m9XnwpIXoBh9E=
+			fqg1agi3C9v3if09oDlOQFd6gf1cbuF4EPtU4YwA+lc=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/Y9j-kG-ATa-view-5QB-Jg-IiA.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M1GTYtA+En9M4OMueLvlTLFP5lE=
+			vG5DNuH44P8KZk9Z2WJUNNQinSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			huWblfWntkcmQ1Qg0DuzZEtUALWq+XIsnGJ2Q8qM3fY=
+			7CeyKMUlFP5xsnd1YEPl1Q1tA839UB4TrsclAKJ9abI=
 			</data>
 		</dict>
 		<key>MCCMEXSelectPayment.storyboardc/a8B-OM-3Iq-view-dAC-K0-adm.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8rlIEtXh/6KwvnrjD5TEg2NKVtI=
+			KGIztpGZlDux4Q7c/HKDZ+p6ia0=
 			</data>
 			<key>hash2</key>
 			<data>
-			H2b0KVzxi7UtSi+oNvuX+jM6FH2PJGHxGNbEoT/hBNg=
+			CqT4x8vqrSfHszR/zaxSvH1tgJZOvHEJ6TTkMGkHRnM=
 			</data>
 		</dict>
 		<key>MCCMEXSignIn.storyboardc/Info.plist</key>
@@ -1111,44 +1303,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WgLjhZNoqNmdv6vP+T9ba1iFNU8=
+			lQbVDAiQcg6CMCQMU/6eExtiFEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbk8RUhC76f+7yrWkH3HeVytcTR43R0jDGRnHLmyxSM=
+			v4ZGvxt98FSmsXvm8Or14hsiaRUBecYUg6ZF6ZUE3XQ=
 			</data>
 		</dict>
 		<key>MCCMEXSignIn.storyboardc/UIViewController-oZq-p1-Gns.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OkXw/+k4y1ezd2drPX5bZ8UEAZI=
+			m+ew66vc4IY+mCEzZKR18oj2vwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			JuhhQyTMB0PD8NLLmUPy7HT6/k30vqGP2FS4NVX/0Jc=
+			fYgFflw+zfu4NpNDsPxujRD9qMYrzcMYhhRwAGooY60=
 			</data>
 		</dict>
 		<key>MCCMEXSignIn.storyboardc/iM5-mq-X6o-view-NHE-b9-8ow.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMo1fonWk30wxIiS7EP9xNKW+z0=
+			QnQM28oeLwIBGdx2ipU8A+eqIhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lBy2RnPAeYTX2yNvGMwfO+kpC3zCvMgnx6eIk7e+zos=
+			s+SeQBA0+AKTTk7PrIiZmbhDWLghM4+1lyDMU/IhnAg=
 			</data>
 		</dict>
 		<key>MCCMEXSignIn.storyboardc/oZq-p1-Gns-view-zZ8-2o-TTS.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QbiRt8mdDBu0mIpKacdzcCnivF8=
+			7OHT4DRokCNlwAmeyY1rrN+qalI=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2tUqz2FCgorsyhHAYED7AMhJHegsz3X5Fr8DKTCt2M=
+			GQ4iVLiUuZrkGstottL96HAByK1/jWusjTssd9j6jNA=
 			</data>
 		</dict>
 		<key>MCCMerchantDB.momd/MCCMerchantDB.mom</key>
@@ -1173,83 +1365,6 @@
 			4fELfCQCTMZ5ZSqe/00mwCqWrEdLIZyyH//o51nbufI=
 			</data>
 		</dict>
-		<key>MCCWalletSelector.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			npuTUFwkxYilLo+LUxT1vn/Ny3M=
-			</data>
-			<key>hash2</key>
-			<data>
-			B+Kz3Ys7KgO63rHL7RqfPDMvvzfgc/lga3jUEhBmr3k=
-			</data>
-		</dict>
-		<key>MCCWalletSelector.storyboardc/MCCWalletSelectorVC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pV527Xu23hsL8ZdlkK+2Y8N30RA=
-			</data>
-			<key>hash2</key>
-			<data>
-			FrOHoRvCuCGxIKAglIWTGANGdsx+bjnFwAGLprcPmUM=
-			</data>
-		</dict>
-		<key>MCCWalletSelector.storyboardc/UQs-jQ-mxI-view-LzQ-8H-bVv.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7T27XWyb4O2at3Keapr8o4yW5D0=
-			</data>
-			<key>hash2</key>
-			<data>
-			GOFa6Z+/3JyV3ER1i8joawYdZ0NrSApg4Elk3DbDRbg=
-			</data>
-		</dict>
-		<key>MCFAnalytics.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NEf/ys4taO2hB88J6RVMg410ZT0=
-			</data>
-			<key>hash2</key>
-			<data>
-			LLzZgQwQy6mH4Q+At1fgatUK4S+ZcfPztmDpUmmrZos=
-			</data>
-		</dict>
-		<key>MarkOffcPro-Bold.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Pq8U5SN68BIVDXiQI4AWZup9W4I=
-			</data>
-			<key>hash2</key>
-			<data>
-			0kMNkPAi7Ql38MXsIg1uHSBnXRGqLROS25frU3C864U=
-			</data>
-		</dict>
-		<key>MarkOffcPro-Light.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sp97/feU/D4NRJjil1xsa74Uvts=
-			</data>
-			<key>hash2</key>
-			<data>
-			mkyaZyO3jN79ASQhtiIujlTn45jHLjjUSpkXCKRbDXw=
-			</data>
-		</dict>
-		<key>MarkOffcPro-Medium.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gr99epy0C3k37Y9Jmlqh9RpBs/8=
-			</data>
-			<key>hash2</key>
-			<data>
-			NhbbMuyCNNEWh9YqXQATq4nLodaMmXgoXXE6IUcI1XA=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -1259,61 +1374,6 @@
 			<key>hash2</key>
 			<data>
 			e0A22Ojj/uWzCDPOnJGFRCWWAsg6S7/nuOyAwqvmUUU=
-			</data>
-		</dict>
-		<key>SVGTemplate.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GMoaL0SHW3FlwVTh8jpgpHc9rY4=
-			</data>
-			<key>hash2</key>
-			<data>
-			+J8B25ySRR5+MgqhSLNKrRJ5IPzglSGxcDRe5SCvCv0=
-			</data>
-		</dict>
-		<key>default-card-schema.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EWPA/t66WSKiEz2SBSiZDcUOcFI=
-			</data>
-			<key>hash2</key>
-			<data>
-			gr5MTewjRkqivsBeMUJDqa3md3lo3n/+IsHxwFo/qMI=
-			</data>
-		</dict>
-		<key>en-US.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CeJLb3sBHfxhKk+/3FO8NB/z31c=
-			</data>
-			<key>hash2</key>
-			<data>
-			vKAMPoL5zIkj59fXyPqpdmNRqgK3/lSjjQBkn5UyAwM=
-			</data>
-		</dict>
-		<key>mex_sandbox_public_key.cer</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			r1Rx9mraJl8+NONN7ZqzKg8Iss8=
-			</data>
-			<key>hash2</key>
-			<data>
-			bOgC6l142qComjnWBq8tgtMoHy6FM97hnL7DDwTtxH0=
-			</data>
-		</dict>
-		<key>wlw_sandbox_public_key.cer</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HlWyN5mAUyn3A4UyoH5TOtw/nwU=
-			</data>
-			<key>hash2</key>
-			<data>
-			DpF7Xt3ddeSeGVBAtF+5DPaxEnEXQKhUCXa8VZVf+tQ=
 			</data>
 		</dict>
 	</dict>

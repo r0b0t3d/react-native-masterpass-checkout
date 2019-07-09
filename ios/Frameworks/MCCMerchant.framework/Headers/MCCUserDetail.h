@@ -25,15 +25,4 @@
  */
 @property (nonatomic, copy, nullable) NSString *phone;
 
-
-/**
- *  Property for express checkout merchant userId;
- */
-@property (nonatomic, copy, nullable) NSString *userId;
-
-
-/// Validation rules for UserDetails
-- (BOOL) isValidUserDetail;
-
-
 @end

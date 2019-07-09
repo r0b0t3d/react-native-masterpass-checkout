@@ -1,0 +1,44 @@
+/* 
+  MCCMEX.strings
+  MCCMerchant
+
+  Created by Singh, Rahul on 5/19/17.
+  Copyright © 2017 MasterCard. All rights reserved.
+*/
+
+//TODO: Remove this file when MEX localization is done..
+
+"sdk_err_for_express_pairing" = "The value of expressCheckoutEnabled at the time of initialization must be true to perform express pairing.";
+"mcc_mex_biometric_enroll_title" = "BIOMETRICS CHECKOUT";
+"mcc_mex_biometric_enroll_description" = "Authorize future purchases at %@ using your biometrics.";
+"mcc_mex_checkout_use_biometric_message" = "Verify your biometric identity to continue with your purchase.";
+"mcc_mex_err_invalid_otp" = "Your Unique Code is invalid. Please try again.";
+"mcc_mex_validation_cardbrand_invalid" = "Card brand is not supported by merchant";
+
+
+"mcc_mex_recognize_flow_btn_confirm_with_touchid_text" = "Confirm with Touch ID";
+"mcc_mex_recognize_flow_btn_confirm_with_faceid_text" = "Confirm with Face ID";
+"mcc_mex_checkout_use_pin" = "Use PIN";
+"mcc_mex_pin_setup_title" = "PIN Setup";
+"mcc_mex_pin_enter_title" = "Enter PIN";
+"mcc_mex_pin_reset_pin" = "Reset PIN";
+"mcc_mex_pin_create_pin" = "Create New PIN";
+"mcc_mex_pin_confirm_pin" = "Confirm Your PIN";
+"mcc_mex_pin_enter_pin" = "Enter Your PIN";
+
+"mcc_mex_pin_error_repeating" = "Pin Error\nRepeating Numbers";
+"mcc_mex_pin_error_sequencial" = "Pin Error\nSequential Numbers";
+"mcc_mex_pin_error_missmatch" = "Your PIN does not match.\nPlease try again.";
+"mcc_mex_pin_retry" = "Retry";
+"mcc_mex_pin_retry_title" = "Unable to set PIN";
+"mcc_mex_pin_lock" = "It looks like we're having some issues setting up your PIN for this merchant.";
+"sdk_err_for_feature_toggle" = "We've encountered an error serving your request. Please try again.";
+
+"mcc_mex_error_something_wrong" = "Unable to complete the request at the moment. Please try again.";
+
+//TODO: Need to change below values
+//"mcc_mex_terms_conditions_label" = "Terms & Conditions";
+//"mcc_mex_registration_terms_conditions" = "terms & conditions";
+//"mcc_mex_registration_privacy_policy" = "privacy policy";
+
+
